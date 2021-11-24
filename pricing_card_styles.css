@@ -1,0 +1,179 @@
+.pricing-container{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 80vw;
+    margin: 100px auto;
+    gap:30px;
+    padding-top: 100px;
+}
+
+.pricing-container > h1{
+    font-weight:900;
+    text-align: center;
+    font-size: 48px;
+}
+
+.tenure-container{
+    display: flex;
+    gap:10px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.tenure-container > h3{
+    font-weight:600;
+    text-align: center;
+    font-size: 24px;
+    color: #ADADAD;
+    position: relative;
+}
+
+.tenure-container .underline{
+    color:#6C5CE7;
+}
+
+.underline::after{
+    position: absolute;
+    display: flex;
+    height: 10px;
+    width: 100px;
+    background-color: #ffa600de;
+    content: "";
+    background-size: 50px 50px;
+    border-radius: 5px;
+    bottom: 0;
+    z-index: -20;
+}
+
+.flex-cards-container{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+
+.card{
+    position: relative;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 10px;
+    padding: 20px 20px;
+    background-color: #fff;
+}
+
+.card[appearance="shadow-wiggle-in-bg"]{
+    box-shadow: 1px 3px 11px 0px #7777777a;
+}
+
+.card[appearance="shadow-wiggle-in-bg"]::before{
+    background-image: url(images/icons/wiggle.svg);
+    content: "";
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 50%;
+    position: absolute;
+    bottom:-20px;
+    left:-20px;
+    z-index:-1;
+}
+
+.card-title{
+    color:#6C5CE7;
+    font-size: 18px;
+}
+
+.price-tenure{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.price-tenure > h2{
+    font-weight: bolder;
+    font-size: 40px;
+    align-self: flex-end;
+}
+.price-tenure > p{
+    font-weight: bold;
+    font-size: 12px;
+    align-self: self-end;
+    height: 20px;
+}
+
+.package-items{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding-left: 0;
+    flex:1;
+}
+
+.package-items > li{
+    font-size: 18px;
+    list-style:none;
+    text-align: start;
+    text-justify: auto;
+    align-content: center;
+    list-style-position: outside;
+    display: flex;
+    align-items: center;
+}
+
+.package-items > li[tick-color="grey"]::before{
+    content: url(images/icons/tick-grey.svg);
+    padding-right: 10px;
+}
+
+.package-items > li[tick-color="orange"]::before{
+    content: url(images/icons/tick-orange.svg);
+    padding-right: 10px;
+}
+
+.package-items > li[tick-color="aqua"]::before{
+    content: url(images/icons/tick-aqua.svg);
+    padding-right: 10px;
+}
+
+.card > button{
+    font-size: 14px;
+    width: 90%;
+    padding: 10px 30px;
+    align-self: flex-start;
+    border-radius: 10px;
+    color:#6C5CE7;
+    background-color: #FFF;
+    border: 1px solid #ADADAD;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.card > button[class="blue-bg-white-font"]{
+    color: #fff;
+    background-color:#6C5CE7;
+}
+
+
+.best-tag{
+    display: flex;
+    align-content: space-around;
+}
+
+.best-tag .best{
+    color: #2D3436;
+    width: max-content;
+    border-radius: 10px;
+    padding : 5px 10px;
+    background-color: #FFF;
+    border : 1px solid #6C5CE7;
+    font-weight: bold;
+}
+
+
+.best-tag .card-title{
+    flex:1;
+}
