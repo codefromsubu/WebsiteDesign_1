@@ -119,7 +119,7 @@ footer{
 }
 
 .name-icon{
-    background-image: url(images/icons/person.svg);
+    background-image: url(../images/icons/person.svg);
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: center;
@@ -127,7 +127,7 @@ footer{
 }
 
 .email-icon{
-    background-image: url(images/icons/email.svg);
+    background-image: url(../images/icons/email.svg);
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: center;
@@ -162,7 +162,7 @@ footer{
 }
 
 .text-area-icon{
-    background-image: url(images/icons/text-area.svg);
+    background-image: url(../images/icons/text-area.svg);
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: 10px;

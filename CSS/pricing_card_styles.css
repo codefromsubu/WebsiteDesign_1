@@ -69,7 +69,7 @@
 }
 
 .card[appearance="shadow-wiggle-in-bg"]::before{
-    background-image: url(images/icons/wiggle.svg);
+    background-image: url(../images/icons/wiggle.svg);
     content: "";
     background-repeat: no-repeat;
     height: 80px;
@@ -125,17 +125,17 @@
 }
 
 .package-items > li[tick-color="grey"]::before{
-    content: url(images/icons/tick-grey.svg);
+    content: url(../images/icons/tick-grey.svg);
     padding-right: 10px;
 }
 
 .package-items > li[tick-color="orange"]::before{
-    content: url(images/icons/tick-orange.svg);
+    content: url(../images/icons/tick-orange.svg);
     padding-right: 10px;
 }
 
 .package-items > li[tick-color="aqua"]::before{
-    content: url(images/icons/tick-aqua.svg);
+    content: url(../images/icons/tick-aqua.svg);
     padding-right: 10px;
 }
 

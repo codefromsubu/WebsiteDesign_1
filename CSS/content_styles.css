@@ -167,7 +167,7 @@
 }
 
 .section1-image{
-    background-image: url(images/sphere.png);
+    background-image: url(../images/sphere.png);
     background-repeat: no-repeat;
     background-size:cover;
     height:65%;
@@ -223,7 +223,7 @@
 }
 
 .section2-top-left-image{
-    background-image: url(images/consider_it_done.png);
+    background-image: url(../images/consider_it_done.png);
     background-repeat: no-repeat;
     background-size:cover;
     height: 100%;
@@ -265,13 +265,13 @@
 
 .section2-top-right-image1{
     flex:1;
-    background-image: url(images/A.png);
+    background-image: url(../images/A.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .section2-top-right-image2{
     flex:1;
-    background-image: url(images/shoe.png);
+    background-image: url(../images/shoe.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -284,13 +284,13 @@
 }
 
 .section2-bottom-image1{
-    background-image: url(images/book.png);
+    background-image: url(../images/book.png);
     background-repeat: no-repeat;
     background-size: cover;
     max-height:90%;
 }
 .section2-bottom-image2{
-    background-image: url(images/woman.png);
+    background-image: url(../images/woman.png);
     background-repeat: no-repeat;
     background-size: cover;
     max-height: 100%;
@@ -309,7 +309,7 @@
 }
 
 .section2-bottom-image3{
-    background-image: url(images/glass\ frame.png);
+    background-image: url(../images/glass\ frame.png);
     background-repeat: no-repeat;
     background-size: cover;
     max-height: 75%;
