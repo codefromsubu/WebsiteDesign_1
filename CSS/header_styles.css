@@ -27,7 +27,8 @@ header{
     align-content: center;
     justify-content: flex-start;
     align-items: center;
-    
+    font-size: 25px;
+    color: #5C5C5C;
 }
 .icon-heading::before{
     background-image: url("../images/icon.svg");
@@ -78,6 +79,7 @@ header .sign-in-btn{
     header{
         padding: 10px 20px;
         justify-content: space-between;
+        width:auto;
     }
 
     nav {
@@ -87,9 +89,9 @@ header .sign-in-btn{
     .icon-heading::before{
         background-image: url("../images/hamburger.svg");
         content: "";
-        background-size: 50px;
-        width: 50px; 
-        height: 50px;
+        background-size: 40px;
+        width: 40px; 
+        height: 40px;
     }
 
     header .sign-in-btn{

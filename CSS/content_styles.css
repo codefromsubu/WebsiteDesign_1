@@ -5,6 +5,13 @@
     z-index: -10;
 }
 
+.bg-top-image{
+    display: none;
+}
+
+.navigate-down{
+    display: none;
+}
 /* Main and sub headings */
 .heading-container{
     display: flex;
@@ -44,7 +51,11 @@
 
 .fine-main-heading{
     order:1;
-    color:brown;
+    color:#D63031;
+}
+
+.fine-main-heading::before{
+    content: "fine";
 }
 
 .highlighter{
@@ -70,6 +81,8 @@
     word-wrap:break-word ;
     text-align: center;
     display: none;
+    max-width: 20ch;
+    line-height: 40px;
 }
 
 /* Heading media query - ipad*/
@@ -113,16 +126,62 @@
 
 /* Heading media query - Mobile*/
 @media screen and (max-width: 360px) {
+
+    .bg-dots{
+        position: absolute;
+        width: 150%;
+        height: 300px;
+        z-index: -10;
+        right: 0;
+        object-fit: cover;
+    }
+
+    .bg-top-image{
+        display: block;
+        position: absolute;
+        width: 150%;
+        height: 500px;
+        z-index: -20;
+        right: 0;
+        object-fit: cover;
+        filter: opacity(30%);
+    }
+
+    .navigate-down{
+        display: block;
+        position: absolute;
+        border-radius: 45%;
+        background-color: white;
+        top:390px;
+        left: 40%;
+    }
+
     .heading-container{
-        padding-top: 10px;
+        padding-top: 30px;
     }
 
     .main-heading-container{
         flex-wrap: wrap;
         gap : 10px;
     }
-    .main-heading{
-        font-size: 40px;
+    .main-heading-container > h1{
+        font-size: 64px;
+        font-weight: 900;
+        color: #2D3436;
+    }
+
+    .text-shadow{
+        text-shadow: 0px 4px 0px #FFFFFF;
+    }
+
+    .main-heading-container > .font-size-smaller{
+        font-size: 48px;
+        font-weight: 900;
+    }
+    .fine-main-heading::before{
+        content: "Cool";
+        font-size: 48px;
+        font-weight: 900;
     }
 
     .sub-heading{
@@ -136,6 +195,8 @@
 
     .mobile-tab{
         display: block;
+        font-size:24px;
+        font-weight: 700;
     }
 }
 
@@ -324,6 +385,20 @@
 }
 
 /* Media query for the grid prctures section */
-@media screen and (max-width: 768px) {
-    
+@media screen and (max-width: 360px) {
+
+    .pictures{
+        display: grid;
+        grid-template-columns: 220px;
+        min-height: 100vh;
+        max-width: 360px;
+        min-width: 360px;
+        grid-gap:20px;
+        margin: 100px 80px;
+        overflow: hidden;
+    }
+
+    .section2{
+        display: none;
+    }
 }

@@ -173,7 +173,23 @@
     font-weight: bold;
 }
 
-
 .best-tag .card-title{
     flex:1;
+}
+
+@media screen and (max-width: 360px) {
+    .pricing-container{
+        height: max-content;
+        padding-top: 0px;
+    }
+
+    .flex-cards-container{
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+    }
+
+    .card{
+        box-shadow: 1px 3px 11px 0px #7777777a;
+    }
 }
