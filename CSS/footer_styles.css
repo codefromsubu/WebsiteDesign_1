@@ -259,9 +259,7 @@ footer{
         position: relative;
         left:0;
         z-index: -30;
-        height: 100px;
-        width: 100vw;
-        bottom:0;
+        bottom:-5px;
         object-fit: cover;
     }
 }
