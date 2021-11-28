@@ -125,7 +125,7 @@
 }
 
 /* Heading media query - Mobile*/
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 412px) {
 
     .bg-dots{
         position: absolute;
@@ -385,7 +385,7 @@
 }
 
 /* Media query for the grid prctures section */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 412px) {
 
     .pictures{
         display: grid;

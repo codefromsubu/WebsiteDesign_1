@@ -197,7 +197,7 @@ footer{
     z-index: -30;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 412px) {
 
     footer{
         display: flex;
@@ -261,7 +261,7 @@ footer{
         z-index: -30;
         height: 100px;
         width: 100vw;
-        top:-75px;
+        bottom:0;
         object-fit: cover;
     }
 }
